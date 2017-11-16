@@ -10,6 +10,10 @@ export interface LoginOptions {
      * Comma separated list of extended permissions
      */
     scope?: string;
+      /**
+     * the type of response expected
+     */
+    response_type?: string;
     /**
      * When true, the granted scopes will be returned in a comma-separated list.
      */
